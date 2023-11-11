@@ -93,3 +93,36 @@ vinculo2= datos[posrandom]
 if vinculo2 in datos:
     datos[posrandom] = aleatorio2
     print(datos)
+
+#############################################################################################################################3
+
+empleados= ['Xavier Pauta', 'Edgar Freire', 'Willy Fernandez', 'Antonia Alvarez']
+
+correos=[]
+
+for i in range(len(empleados)):
+    
+    empleado= empleados[i]
+    print(empleado)
+
+    dos= empleado[0:2].lower() #'xa'
+    ap= empleado[-2:].lower() #'ta'
+    
+    #dos letras aleatorias del nombre (tanto mi nombre y apellido)
+    esp= empleado.index(' ')
+    nombre= empleado[ :esp].lower() #'xavier'
+    nomesc= sample(nombre,2)
+    une= ''.join(nomesc)
+
+
+
+    apellido= empleado[esp+1:].lower() #'pauta'
+    apesc= sample(apellido,2)
+    une2=''.join(apesc)
+
+
+    dominio= '@espol.edu.ec'
+    correo= dos + ap+ une + une2 + dominio
+    correos.append(correo)
+
+print(correos)
