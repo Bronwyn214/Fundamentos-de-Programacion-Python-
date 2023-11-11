@@ -173,3 +173,95 @@ for i in range(len(lst_personas)):
 
     if apellido2== apellido and nom.lower()!=persona.lower(): #PARA QUE NO SALGA FRANK MALO REPETIDO, HAY QUE HACER LA CONDICION DE VERIFICAR SI MI NOMBRE INTRODUCIDO ES DIFERENTE A LA PERSONAS QUE SE RECORREN
         print(persona)
+
+########################################################################################################################################
+
+
+gastos= ['enero|100|comisariato', 'enero|20|peluqueria', 'febrero|15|libro']
+
+mes= input('Ingrese su mes: ').lower() #enero
+
+total=0
+
+for i in range(len(gastos)):
+    gasto= gastos[i]
+    mesG, valor, desc = gasto.split('|')
+    valor= int(valor)
+
+    if mes == mesG:
+        total+=valor
+
+    
+if total>0:
+    print(f'Se realizaron gastos en el mes de {mes} con total de {total}')
+
+else:
+    print(f'No se realizaron gastos en el mes de {mes}')
+
+###########################################################################################################################################
+
+registro= ['7-Feb-2020,0951994508,GYU-8256,celular,40', '2-Nov-2020,0111153823,OCG-7532,licencia,40', '29-Marz-2020,0951994508,0C6-7532,pico y placa,68']
+
+ced= input('Ingrese su cedula: ') #'0951994508'
+me= input('Ingrese su mes: ').title() #'Marz'
+
+total=0
+
+multas=[]
+
+for i in range(len(registro)):
+    datos= registro[i]
+    fecha, cedula, placa, multa, valor= datos.split(',')
+    valor= int(valor)
+    separo= fecha.split('-')
+
+    if me == separo[1]:
+        total+=valor
+    
+    if ced == cedula:
+        multas.append(multa)
+
+if total>0:
+    print(f'Total de la deuda correspondiente al mes {me}: {total}')
+    print(f'Total de veces que fue multado: {len(multas)}')
+
+else:
+    print(f'No se realizaron procesos en el mes de {me}')
+
+###########################################################################################################################################################
+
+lista= ['Luis|Palacios|Medico|3', 'Kimberly|Montero|Secretaria|8']
+
+ocupaciones= ['Medico', 'Abogado']
+horas= [20.50, 18.75]
+
+print('Total de sueldo')
+
+for i in range(len(lista)):
+    datos= lista[i]
+    prof= ocupaciones[i]
+    tot= horas[i]
+
+    nombre, apellido, ocupacion, horastrab= datos.split('|')
+    horastrab=int(horastrab)
+    tot= int(tot)
+
+    if horastrab>8:
+        normales= 8
+        extra= horastrab-normales
+    
+    else:
+        normales= horastrab
+        extra=0
+    
+    if ocupacion in ocupaciones:
+        indice= ocupaciones.index(ocupacion)
+        tarifa= horas[indice]
+    
+    else:
+        tarifa= 10
+    
+    tarifaextr= tarifa + 0.5*tarifa
+    pago= normales*tarifa + extra*tarifaextr
+
+    print(f'{nombre},{apellido},{ocupacion},{pago}')
