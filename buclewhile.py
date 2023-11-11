@@ -224,3 +224,22 @@ while ahorro>suma:
 
 print(f'Objetivo alcanzado, se ha ahorrado {suma}')
 
+#########################################################################################################################################
+
+from random import *
+
+aleatorio= randint(1,30)
+
+adivina= int(input('Ingrese su numero: ')) #4
+
+while adivina!=aleatorio:
+    
+    if adivina<aleatorio:
+        print('Demasiado bajo')
+    
+    else:
+        print('Demasiado alto')
+
+    adivina= int(input('Ingrese su numero: ')) #23
+
+print('Adivinaste')
