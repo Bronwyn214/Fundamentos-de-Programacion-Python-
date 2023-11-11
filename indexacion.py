@@ -117,6 +117,38 @@ posult= tuitinv[ :posarroba]
 ultimo= posult[::-1] #kuriharan
 print(ultimo)
 
+##############################################################################################################################################################################################
+
+s= 'ACGT'
+r= 'CG'
+
+
+ese= input('ingrese su secuencia s: ') #'AGCTTGCTAAGCA'
+
+inv= ese[::-1]
+
+print(inv)
+
+pos= inv.index(r) #hallas las posiciones del CG
+
+pos2= inv.index(r, pos+1) #halla la posicion del primer CG en la segunda mitad
+
+ind= inv[pos2 :] #CGTTCGA
+
+
+print(ind)
+
+conteo= ind.count(r) #hay 2 en la segunda mitad
+
+print(conteo)
+
+verifica= conteo ==2 #verificamos si tiene 2 CG
+
+cond= inv.count(r) >=3 #VERIFICAMOS SI EN TOTAL HAY 3 CG EN LA CADENA INVERTIDA
+
+confin= verifica and cond 
+
+print(f'La secuencia AGCTTGCTAAGCA pertenece a la especie buscada: {confin}')
 print(f'total de hashtags: {con}')
 print(f'total de menciones: {con2}')
 print(f' segunda mencion {segundo}')
