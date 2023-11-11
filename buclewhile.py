@@ -145,3 +145,53 @@ while indice < len(lista_2):
   print(f'hay pintura color {index}')
   indice+=1
 
+######################################################################################################################################################
+productos= ['monitor', 'mouse', 'teclado', 'microfono', 'camara', 'audifonos']
+precios= [200, 15, 25, 5 , 40, 80]
+
+
+#Nombre del producto con menor precio
+
+minimo= min(precios) #5 
+posmin= precios.index(minimo) #posicion del minimo
+prodmin= productos[posmin]
+
+
+print(f'El nombre del producto con el menor precio es {prodmin}')
+
+#EL PRECIO DE UN MOUSE
+
+posmouse= productos.index('mouse') #pos del mouse
+preciomouse= precios[posmouse]
+
+print(f'El precio del mouse es {preciomouse}')
+
+#HACER UN RANKING DE TOP 5 EN ORDEN A MAYOR SU PRECIO
+
+iteracion=0
+
+info= 'PRODUCTO'
+info2= 'PRECIO'
+
+
+print(f'{info:<20}{info2:20} ')
+
+
+while iteracion<5: #0<5 == true
+
+    maximo= max(precios) #precio maximo
+    posmax= precios.index(maximo)
+    vinc= productos[posmax]
+
+    print(f'{vinc:<20}{maximo:<20}')
+
+    del productos[posmax]
+    del precios[posmax]
+
+    iteracion+=1
+    
+    #monitor 200
+    #audifonos 80
+    #camara 40
+    #teclado 25
+    #mouse 15
