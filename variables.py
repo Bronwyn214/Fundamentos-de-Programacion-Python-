@@ -40,3 +40,28 @@ valor_c= 6
 formula= (-valor_b + ((valor_b**2)-(4*valor_A*valor_c))**(1/2))/(2*valor_A)
 
 print(f'mi resultado es {int(formula)}')
+
+##########################################
+
+num_1= 45
+num_2= 32
+
+ultimo= num_1 % 10
+ultimo_2= num_2 % 10
+
+print(ultimo) #5
+print(ultimo_2) #2
+
+
+re=ultimo == ultimo_2
+ree=ultimo > ultimo_2
+reee=ultimo >= ultimo_2
+reeee=ultimo <= ultimo_2
+
+print(f'Resultados: {re}, {ree}, {reee}, {reeee}')
+
+#COMPARAR SI EL ULTIMO NUMERO DE NUM1 ES DIFERENTE AL ULTIMO NUMERO DE NUM2
+
+rep= ultimo != ultimo_2
+
+print(rep)
