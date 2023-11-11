@@ -195,3 +195,32 @@ while iteracion<5: #0<5 == true
     #camara 40
     #teclado 25
     #mouse 15
+
+################################################################################################################################################
+
+password= input('Ingrese su contra: ') #'Xavier'
+pass2= input('Ingrese su contra otra vez: ') #'1234', tiene que ser igual a 'Xavier' para salir del bucle
+cont=1 #Comienza en uno porque al ingresar una contrasena incorrecta, cuenta como mi primer intento
+
+
+while password!=pass2:
+    print('No coincide, ingrese otra vez')
+    cont+=1
+    pass2= input('Ingrese su contra otra vez: ') #'1234'
+
+print('Coinciden')
+print(f'Te ha tomado {cont} intentos')
+
+##################################################################################################################################################
+
+ahorro= int(input('Cuanto desea ahorrar: ')) #40
+
+suma=0
+
+while ahorro>suma:
+
+    alcancia= int(input('Ingrese dinero a la alcancia: '))
+    suma+=alcancia
+
+print(f'Objetivo alcanzado, se ha ahorrado {suma}')
+
