@@ -1,3 +1,4 @@
+import math
 print(22)
 print(1.5)
 print('Hola mundo')
@@ -65,3 +66,42 @@ print(f'Resultados: {re}, {ree}, {reee}, {reeee}')
 rep= ultimo != ultimo_2
 
 print(rep)
+
+##############################################################################################################################
+p= 'PRODUCTO'
+v= 'VALOR SIN IVA'
+t= 'TOTAL'
+
+producto= 'Capucchino'
+valor= 2.60
+iva= 0.12
+total= valor + (valor*iva)
+
+producto_2= 'Expresso'
+valor_2= 1.1
+iva_2= 0.12
+total_2= valor_2 + (valor_2*iva_2)
+
+producto_3= 'Mocaccino'
+valor_3= 2.95
+iva_3= 0.12
+total_3= valor_3 + (valor_3*iva_3)
+
+
+print(f'{p:^20}{v:^20}{t:^20}')
+print(f'{producto:^20}{valor:^20}{total:^20,.2f}')
+print(f'{producto_2:^20}{valor_2:^20}{total_2:^20,.2f}')
+print(f'{producto_3:^20}{valor_3:^20}{total_3:^20,.2f}')
+
+##########################################################################################################################
+
+num= float(input('ingrese num'))
+num_2=float(input('ingrese num segundo'))
+
+cond= (num**2 + num_2**2)
+cond_2= math.sqrt(cond)
+print(f'{cond_2:.3f}') #0.3, en 3 decimales
+
+##############################################################
+av= (num**2 + num_2**2)**(1/2)
+print(f'{av:.3f}') #0.3 en 3 decimales
