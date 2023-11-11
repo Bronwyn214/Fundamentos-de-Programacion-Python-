@@ -76,3 +76,48 @@ print(ayu3)
 print(f'primer ayudante es: {ayu1}, segundo ayudante es: {ayu2}, ultimo ayudante es {ayu3}')
 
 #primer ayudante es: Joel, segundo ayudante es: Kevin, ultimo ayudante es Axell
+
+################################################################################################################################################
+
+tweet= "This is Google #AI that sounds RT @rajat_shrimal #ArtificialIntelligence #NLU #NLP #DigitalAssistant @MikeQuindazzi @evankirstel @kuriharan"
+
+lo= len(tweet) #cantidad
+ha= tweet.index('#')
+ind= tweet[ha]
+con= tweet.count(ind) #cuenta cuantos hashtags hay en el tuit
+print(con)
+
+me= tweet.index('@')
+ind2= tweet[me]
+con2= tweet.count(ind2) #cuenta cuantas menciones hay en el tuit
+print(con2)
+
+tuit= tweet[me+1 : ] #rajat_shrimal.....
+arroba= tuit.index('@')
+tuit2= tuit[arroba +1 : ] #MikeQuindazzi...
+print(tuit2)
+
+esp= tuit2.index(' ')
+primero= tuit2[ :esp] #MikeQuindazzi
+print(primero)
+
+otroarr= tuit2.index('@')
+pos3= tuit2[ otroarr+1:] #evankirstel....
+
+esp2= pos3.index(' ')
+segundo= pos3[ :esp2] #evankirstel
+
+print(segundo)
+
+tuitinv= tweet[::-1]
+posarroba= tuitinv.index('@')
+
+posult= tuitinv[ :posarroba]
+
+ultimo= posult[::-1] #kuriharan
+print(ultimo)
+
+print(f'total de hashtags: {con}')
+print(f'total de menciones: {con2}')
+print(f' segunda mencion {segundo}')
+print(f' tercera mencion {ultimo}')
