@@ -114,3 +114,62 @@ print(f'Estudiante con menor edad {ind2}')
 #PROMEDIO
 suma= sum(listaed)/3
 print(suma)
+
+##################################################################################################################
+paginas= ['www.espol.edu.ec', 'www.google.com', 'www.UCSG.edu.ec', 'www.fcnm.espol.edu.ec', 'www.uess.edu.ec', 'www.Stanford.edu', 'www.ucsg.edu.ec', 'www.harvard.edu']
+
+universidades=[]
+
+for i in range(len(paginas)):
+    pagina= paginas[i]
+    
+    if '.edu' not in pagina:
+        print('No es un URL educativo')
+    
+    else:
+        if 2<=pagina.count('.')<=3:
+            punto= pagina.index('.')
+            edu= pagina.index('.edu')
+            universidad= pagina[punto+1 :edu]
+            universidades.append(universidad)
+        
+        elif pagina.count('.')>=4:
+            otropunto= pagina.index('.')
+            punto2= pagina.index('.', otropunto+1)
+            edu2= pagina.index('.edu')
+            universidad2= pagina[punto2+1: edu2]
+            universidades.append(universidad2)
+
+print(universidades)
+
+unicos=[]
+
+for i in range(len(universidades)):
+    universidades[i] = universidades[i].lower()
+    
+    if universidades[i] not in unicos:
+        unicos.append(universidades[i])
+
+
+print(unicos)
+
+############################################################################################################################################
+
+lst_personas= ['Frank Malo', 'Pedro Peralta', 'Mercede Malo', 'Carlos Andrade', 'Humberto Coto', 'Manuel Andrade' ]
+
+nom= input('Ingrese el nombre y apellido: ') #Frank Malo
+
+esp2= nom.index(' ')
+nombre2= nom[ :esp2]
+apellido2= nom[esp2+1:]
+
+print('Posibles parientes:')
+
+for i in range(len(lst_personas)):
+    persona= lst_personas[i]
+    esp= persona.index(' ')
+    nombre= persona[ :esp]
+    apellido= persona[esp+1: ]
+
+    if apellido2== apellido and nom.lower()!=persona.lower(): #PARA QUE NO SALGA FRANK MALO REPETIDO, HAY QUE HACER LA CONDICION DE VERIFICAR SI MI NOMBRE INTRODUCIDO ES DIFERENTE A LA PERSONAS QUE SE RECORREN
+        print(persona)
