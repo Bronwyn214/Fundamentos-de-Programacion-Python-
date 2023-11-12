@@ -39,11 +39,6 @@ ayu1= subtuit[ : subesp] #JOEL
 print(ayu1) #Joel
 
 
-
-
-
-
-
 pos_2= subtuit.index('#') #13AVA POSICION
 
 print(pos_2) #13ava posicion desde #Joel en la que esta el siguiente hashtag
