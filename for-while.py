@@ -17,6 +17,9 @@ while indice < len(lista_2):
   index= lista_2[indice]
   print(f'hay pintura color {index}')
   indice+=1
+
+#######################################################################
+
 #EJERCICIO DE VOTOS
 
 pollos= ['Angie', 'Andres', 'Gabriela', 'Oscar', 'Kevin', 'Victor', 'Gustavo', 'Annie', 'Maria']
@@ -28,8 +31,6 @@ cont_votos = [0]* len(pollos)
 
 print(pollos)
 print(cont_votos)
-
-
 
 nombre= input('Ingrese el nombre del estudiante que quiera votar: ').capitalize() #'Angie'
 
