@@ -1,5 +1,7 @@
 from random import *
 
+#EJERCICIO 1
+
 #nombre;costo;numeros-de-asientos
 
 pasajero1= '    maria cristina lopez sanchez|200.23|A1,A2;;;;'
