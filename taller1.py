@@ -11,13 +11,13 @@ if usuario.isalpha() and usuario!='admin' and len(usuario)>=6:
     clave= input('Ingrese contraseña: ') #3920dmdmdf
     
     if len(clave)>=8 and clave.isalnum():
-        if '123' not in clave and 'abc' not in clave and 'hola'          not in clave and 'contrasena' not in clave:
+        if '123' not in clave and 'abc' not in clave and 'hola' not in clave and 'contrasena' not in clave:
           print('Registro realizado exitosamente.')
 
         else:
-          print(f'La contraseña {clave} no es correcta. No fue             posible hacer el registro.')
+          print(f'La contraseña {clave} no es correcta. No fue posible hacer el registro.')
     else:
-      print(f'La contraseña {clave} no es correcta. No fue             posible hacer el registro.')
+      print(f'La contraseña {clave} no es correcta. No fue posible hacer el registro.')
 
 
 
