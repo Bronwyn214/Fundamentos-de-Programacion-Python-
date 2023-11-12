@@ -112,6 +112,11 @@ posult= tuitinv[ :posarroba]
 ultimo= posult[::-1] #kuriharan
 print(ultimo)
 
+
+print(f'total de hashtags: {con}')
+print(f'total de menciones: {con2}')
+print(f' segunda mencion {segundo}')
+print(f' tercera mencion {ultimo}')
 ##############################################################################################################################################################################################
 
 s= 'ACGT'
@@ -144,7 +149,3 @@ cond= inv.count(r) >=3 #VERIFICAMOS SI EN TOTAL HAY 3 CG EN LA CADENA INVERTIDA
 confin= verifica and cond 
 
 print(f'La secuencia AGCTTGCTAAGCA pertenece a la especie buscada: {confin}')
-print(f'total de hashtags: {con}')
-print(f'total de menciones: {con2}')
-print(f' segunda mencion {segundo}')
-print(f' tercera mencion {ultimo}')
