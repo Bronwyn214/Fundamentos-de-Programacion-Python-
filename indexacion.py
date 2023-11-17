@@ -149,3 +149,58 @@ cond= inv.count(r) >=3 #VERIFICAMOS SI EN TOTAL HAY 3 CG EN LA CADENA INVERTIDA
 confin= verifica and cond 
 
 print(f'La secuencia AGCTTGCTAAGCA pertenece a la especie buscada: {confin}')
+
+######################################################################################################################################
+calificaciones= ['Xavier', 80, 75, 'Andres', 60, 65, 'Melissa', 40, 80]
+
+#SUPONIENDO EN MI LISTA HAY MAS ESTUDIANTES CON SUS CALIFICACIONES
+#['Xavier', 80, 75, 'Andres', 60, 65, 'Melissa', 40, 80,......]
+
+estudiantes= calificaciones[0::3]
+print(estudiantes)
+
+p1= calificaciones[1::3]
+print(p1)
+
+p2= calificaciones[2::3]
+print(p2)
+
+#cantidad de estudiantes
+
+tam= len(estudiantes)
+print(tam)
+
+#NOTA MAXIMA PRIMER PARCIAL JUNTO CON EL NOMBRE
+maxi= max(p1)
+posmax= p1.index(maxi)
+estudiantemax= calificaciones[posmax]
+
+print(f'{estudiantemax} tiene nota de p1 {maxi}')
+
+#Nota maxima segundo parcial junto con nombre
+maxi2= max(p2)
+posmax2= p2.index(maxi2)
+estudiantemax2= calificaciones[posmax2]
+
+print(f'{estudiantemax2} tiene nota de p2 {maxi2}')
+
+#nota promedio primer y segundo parcial
+prom1= (sum(p1))//tam
+prom2= (sum(p2))//tam
+
+print(f'Promedio primer parcial {prom1}')
+print(f'Promedio segundo parcial {prom2}')
+
+################################################################################################################################
+placas= ['ABC-1234', 'XYA-1902', 'HJF-885', 'BCE-1234', 'BSC-7891']
+
+infoplacas= ['0537231521;ACTIVO', '0996716271;ACTIVO', '0813371349;INACTIVO', '0517859271;INACTIVO'
+ , '0836944361;INACTIVO']
+
+plac= input('Ingrese una placa: ') #'XYA-1902'
+pos= placas.index(plac)
+datos= infoplacas[pos] #'0996716271;ACTIVO'
+cedula, estado= datos.split(';')
+
+print(f'Cedula: {cedula}')
+print(f'Estado: {estado}')
