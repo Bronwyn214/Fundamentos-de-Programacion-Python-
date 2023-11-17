@@ -111,3 +111,43 @@ if ind == ind2:
     print('Son parientes')
 else:
     print('No son parientes')
+
+########################################################################################################################################
+
+datos= [10, 40, 25, 50]
+
+pos= int(input('Ingrese una posicion: ')) #1
+
+vinculo= datos[pos] #40
+print(vinculo)
+
+aleatorio= randint(5,10)
+print(f'Numero aleatorio {aleatorio}')
+
+if vinculo in datos:
+    datos[pos] = aleatorio
+    print(datos)
+
+#[10, 40, 25, 50]
+#[10, 6, 25, 50]
+
+aleatorio2= randint(-30,-1)
+randomo= choice(datos)
+posrandom= datos.index(randomo) #posicion aleatoria
+print(f'Posicion aleatoria: {posrandom}')
+print(f'Numero aleatorio {aleatorio2}')
+
+vinculo2= datos[posrandom]
+#print(vinculo2)
+
+if vinculo2 in datos:
+    datos[posrandom] = aleatorio2
+    print(datos)
+
+#Ingrese una posicion: 1
+#40
+#Numero aleatorio 7   
+#[10, 7, 25, 50]      
+#Posicion aleatoria: 3
+#Numero aleatorio -23 
+#[10, 7, 25, -23] 
