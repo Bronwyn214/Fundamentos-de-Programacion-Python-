@@ -1,0 +1,80 @@
+Ejercicios megas-ayundatía FEPOL 18/11/2023
+
+Ejercicio 1
+Se tiene la siguiente lista de elementos:
+["carbon:58","oro:74","diamante:12","hierro:85","diamante:5",...]
+nota: Los elementos pueden repetirse.
+Donde cada elemento constituye un mineral y su cantidad en alguna unidad.
+Realice un programa que pueda calcular:
+a) La cantidad total de todos los elementos juntos.
+b) El total de un elemento en específico elegido por el usuario.
+c) El valor en dolares del carbon sabiendo que cada unidad cuesta 4.5 dolares.
+
+Ejercicio 2
+En una ferretería llegó una caja lleno de elementos variados como pernos, tornillos, etc. 
+Todos aquellos elementos son registrados por una lectora de material y lo almacena en una lista de adquisicion:
+adquisicion = ["perno|<5>","perno|<4>","tornillo|<2>","clavo|<7>","remache|<11>",...]
+La lista contiene la siguiente estrutura "elemento|<cantidad>"
+nota: Los elementos pueden repetirse.
+a) Implemente una función llamada contarElemento(elemento,lista) que recibe la lista adquisicion y un elemento como perno, tornillo, etc. Retornará la cantidad total de ese elemento.
+b) Implemente una función llamada existeElemento(elemento,lista) que recibe la lista adquisicion y un elemento como perno, tornillo, etc. Retornará el valor verdadero si el elemento esta almenos una sola vez en la lista caso contrario retornará Falso.
+c) En el programa principal el usuario ingresará un elemento como perno, tornillo, etc. Si el elemento se encuentra en la lista de adquisicion imprime la cantidad total de ese elemento y sino, imprimirá que el elemento no se encuentra registrado.
+
+Ejercicio 3
+Se tiene la siguiente lista de palabras:
+palabras = ["eventos","socrates","matematicas","automovil","elevaciones","elevaciones",...]
+Se desea crear un programa que imprima las palabras de mayor longitud en mayúscula.
+nota: Las palabras se pueden repetir pero siempre están en minúscula.
+
+Ejercicio 4
+Se tiene la siguiente lista de nombres:
+nombres = ["Jose","Andres","Jorge","Eduardo",...]
+nota: No se repiten los nombres y siempre tienen la primera letra en mayúscula y lo restante en minúscula.
+Se desea crear un programa que pida al usuario que ingrese un nombre, el programa debe imprimir si el nombre está en la lista o no.
+Esto se repitirá hasta que el programa se debe ingresar "---", en ultimas instancias mostrará cuantas veces se ingresaron nombres.
+
+Ejercicio 5
+Se tiene la siguiente lista de palabras:
+palabras = ["hola","online","futbol"]
+Se requiere crear un programa donde se empieza teniendo 5 intentos:
+- Le pida al usuario una palabra.
+- Escoja una palabra aleatoria de la lista de palabras.
+- Si la palabra ingresada es la misma que la escogida aleatoriamente se le agregará 5 puntos al usuario y se le agregará un intento adicional.
+- Si la palabra ingresada no es la escogida aleatoriamente pero almenos esta en la lista de palabras se le sumará 1 punto al usuario.
+- Caso contrario simplemente le dará 0 puntos.
+El programa debe funcionar hasta que se agoten los intentos o que llegue a 50 puntos.
+nota: Para que el programa sea amigable visualmente agregue etiquetas que ayuden a identificar cada cosa en la consola.
+
+Ejercicio 6
+Se requiere crear un programa que le pida al usuario ingresar un número y se debe cumplir las siguientes condiciones. Si el numero cumple las condiciones terminará el programa imprimiendo "Programa finalizado", sino seguirá pidiendole un número al usuario hasta que se cumplan todas las condiciones.
+Implemente una función que retorne un valor de verdadero si se cumplen todas las siguientes condiciones a la vez, caso contrario retornará falso:
+- Debe ser estrictamente un número.
+- El número debe tener 10 dígitos.
+- La suma de todos los dígitos debe ser mayor que 45.
+
+Ejercicio 7
+Se desea crear un programa en la cuál se pide al usuario ingresar un número varias veces hasta que la multiplicación sobrepase el valor de 1000. Si llega a este valor el programa finalizará y mostrará: "Finalizado: Limite alcanzado"
+Adicionalmente implemente una función llamada inputNum() que se usará como un input() mejorado, esta función le pedirá al usuario un número luego comprueba si es un entero para retornar dicho número en entero, caso contrario mostrará: "No es un número" y seguirá pidiendo el ingreso de dicho número hasta que se comprueben la condicion.
+nota: use la función inputNum() en su programa principal.
+
+Ejercicio 8
+- Implemente la siguiente función Menu() que imprimerá lo siguiente:
+Elija una opción(n):
+1. Agregar
+2. Mostrar
+3. Salir
+- En el programa principal se desea crear un programa que le pida al usuario una opción, cada opción implementará una función que se llamará como se llame la opción. Si el usuario ingresa una opción pero no existe mostrará: "opción invalida"
+- El programa debe funcionar pidiendo una opción y realizando la acción de la opción hasta que se ingrese la opción 3(Salir).
+- La opción Agregar le pedirá al usuario un nombre y una edad por separado luego estas se agregarán a una lista de nombres la cuál cada elemento tendrá su estructura como: 
+nombres = ["nombre:edad",...]
+- La opción Mostrar imprimirá todos los nombres y edades de la siguiente manera:
+------------------
+Nombre        edad
+
+Pablo           20
+Mateo           22
+------------------
+Si la lista de nombres está vacía mostrará lo siguiente: "No existen datos para presentar"
+
+Si el programa finaliza debe mostrar por ultima vez en el mismo formato de la opcion Mostrar y también dirá: "Programa finalizado"
+nota: No realice validaciones simplemente asuma que el usuario ingresará todo correcto.
