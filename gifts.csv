@@ -1,0 +1,91 @@
+Nro Deseo,Nombre de Persona,Continente,Ciudad,Nombre de Regalo,Categoría,Costo aproximado
+1,Juan,Sudamérica,Buenos Aires,Juguete de construcción,Juguetes,20
+2,María,Asia,Tokio,Libro de cocina,Libros,30
+3,Carlos,América del Norte,Nueva York,Zapatillas deportivas,Ropa,80
+4,Ana,África,Johannesburgo,Set de maquillaje,Belleza,50
+5,Pablo,Europa,Londres,Cámara digital,Tecnología,200
+6,Laura,Oceanía,Sídney,Bicicleta deportiva,Deporte,150
+7,Miguel,Sudamérica,Lima,Reloj inteligente,Tecnología,120
+8,Sofía,Asia,Pekín,Auriculares inalámbricos,Tecnología,60
+9,Lucas,América del Norte,Los Ángeles,Tabla de surf,Deporte,180
+10,Isabel,África,El Cairo,Perfume de diseñador,Belleza,70
+51,Alejandro,América del Norte,Nueva York,Robot de cocina,Electrodomésticos,150
+52,Marta,Asia,Tokio,Libro de arte,Libros,40
+53,Diego,Sudamérica,Buenos Aires,Zapatillas deportivas,Ropa,90
+54,Sofía,África,Johannesburgo,Set de maquillaje,Belleza,60
+55,Lucas,Oceanía,Sídney,Consola de videojuegos,Entretenimiento,300
+56,Ana,América del Norte,Los Ángeles,Cámara fotográfica,Tecnología,250
+57,Carlos,Europa,Londres,Kit de pintura,Arte,50
+58,Isabel,Sudamérica,Lima,Reloj inteligente,Tecnología,120
+59,Pablo,Asia,Pekín,Patines en línea,Deporte,70
+60,María,América del Norte,Chicago,Perfume de diseñador,Belleza,80
+11,Andrés,Oceanía,Melbourne,Smartphone,Tecnología,400
+12,Laura,Europa,París,Bolso de diseñador,Moda,200
+13,Fernando,África,Ciudad del Cabo,Telescopio,Astronomía,100
+14,Valentina,Asia,Seúl,Videojuego de aventuras,Entretenimiento,60
+15,Javier,Sudamérica,Santiago,Silla de escritorio,Muebles,120
+16,Marina,América del Norte,Toronto,Kit de jardinería,Jardín,40
+17,Carlos,Europa,Berlín,Bicicleta de montaña,Deporte,180
+18,Sofía,Asia,Shanghái,Laptop,Tecnología,700
+19,Jorge,Sudamérica,Montevideo,Kit de cocina gourmet,Gastronomía,80
+20,Alicia,África,El Cairo,Reloj de pulsera,Tecnología,50
+21,Luis,Oceanía,Sídney,Gafas de sol de diseñador,Moda,100
+22,Natalia,América del Norte,Los Ángeles,Auriculares inalámbricos,Tecnología,60
+23,Adrián,Europa,Londres,Tablero de ajedrez,Entretenimiento,30
+24,Martina,Sudamérica,Buenos Aires,Silla de gaming,Muebles,150
+25,Miguel,Asia,Tokio,Juguetes educativos,Juguetes,30
+26,Paola,África,Johannesburgo,Lámpara de escritorio,Iluminación,40
+27,Ricardo,Oceanía,Sídney,Set de pesas,Deporte,90
+28,Beatriz,América del Norte,Nueva York,Botella de vino premium,Gastronomía,50
+29,Emilio,Europa,París,Escultura decorativa,Arte,70
+30,María,Sudamérica,Lima,Teléfono inteligente,Tecnología,300
+31,Gabriel,Asia,Pekín,Scooter eléctrico,Deporte,150
+32,Elena,América del Norte,Chicago,Lápiz 3D,Tecnología,80
+33,Juan,Oceanía,Melbourne,Kit de acuarelas,Arte,25
+34,Lorena,Europa,Madrid,Sonido envolvente para TV,Tecnología,120
+35,Manuel,África,Ciudad del Cabo,Maleta de viaje,Accesorios de viaje,100
+36,Silvia,Asia,Seúl,Robot educativo,Juguetes,40
+37,Javier,Sudamérica,Santiago,Caja de herramientas,Hogar,60
+38,Camila,América del Norte,Los Ángeles,Bicicleta estática,Deporte,200
+39,Felipe,Europa,Londres,Maquina de café expresso,Electrodomésticos,250
+40,Valeria,África,El Cairo,Perfume exótico,Belleza,70
+61,Sofía,Europa,Roma,Auriculares inalámbricos,Tecnología,80
+62,José,África,El Cairo,Bolso de cuero,Moda,120
+63,Mariana,América del Norte,Toronto,Kit de pintura,Arte,40
+64,Daniel,Asia,Tokio,Videojuego de simulación,Entretenimiento,50
+65,Valentín,Sudamérica,Lima,Robot educativo,Juguetes,30
+66,Isabella,Oceanía,Sídney,Tabla de surf,Deporte,150
+67,Lorenzo,América del Norte,Nueva York,Laptop gamer,Tecnología,1000
+68,Valeria,Europa,Londres,Joyas de plata,Moda,90
+69,Nicolás,Asia,Pekín,Smartwatch,Tecnología,70
+70,Carolina,Sudamérica,Buenos Aires,Cámara instantánea,Fotografía,80
+71,Felipe,Europa,París,Set de cuchillos de chef,Cocina,60
+72,María,América del Norte,Los Ángeles,Altavoces Bluetooth,Tecnología,120
+73,Ricardo,África,Johannesburgo,Bicicleta plegable,Deporte,180
+74,Luciana,Oceanía,Sídney,Libros de fantasía,Libros,45
+75,Andrés,Sudamérica,Santiago,Kit de jardinería,Jardín,35
+76,Camilo,Asia,Tokio,Reloj de pulsera,Tecnología,50
+77,Antonella,América del Norte,Nueva York,Silla ergonómica,Muebles,200
+78,Matías,Europa,Madrid,Juego de té de porcelana,Decoración,70
+79,Daniela,África,Ciudad del Cabo,Reloj de arena,Decoración,25
+80,Sebastián,Oceanía,Sídney,Kit de costura,Manualidades,30
+81,Catalina,América del Norte,Toronto,Set de tazas de café,Decoración,40
+82,Maximiliano,Europa,Londres,Mochila de viaje,Accesorios de viaje,60
+83,Isabel,Sudamérica,Lima,Escultura moderna,Arte,85
+84,Alejandro,Asia,Seúl,Auriculares con cancelación de ruido,Tecnología,150
+85,Sara,América del Norte,Los Ángeles,Paleta de sombras de ojos,Belleza,40
+86,Mateo,Oceanía,Sídney,Estuche de vinos premium,Gastronomía,100
+87,Valentina,Europa,París,Botas de invierno,Ropa,120
+88,Adrián,África,Johannesburgo,Tripode para cámara,Fotografía,50
+89,Laura,Asia,Pekín,Máquina de afeitar eléctrica,Belleza,70
+90,Iván,Sudamérica,Buenos Aires,Teclado mecánico para gaming,Tecnología,80
+91,Natalia,América del Norte,Toronto,Kit de maquillaje profesional,Belleza,90
+92,Juan,Europa,Madrid,Juego de sartenes antiadherentes,Cocina,50
+93,Milena,África,El Cairo,Perfume floral,Belleza,35
+94,Javier,Oceanía,Sídney,Monitor de computadora,Tecnología,200
+95,Florencia,Sudamérica,Santiago,Sombrero de diseñador,Moda,60
+96,Cristian,Asia,Seúl,Lámpara inteligente,Iluminación,75
+97,Micaela,América del Norte,Nueva York,Caja de herramientas,Hogar,40
+98,Eduardo,Europa,Londres,Set de brochas de maquillaje,Belleza,30
+99,Ana,África,Ciudad del Cabo,Juegos de mesa,Entretenimiento,45
+100,Fernando,Oceanía,Sídney,Reloj de pared decorativo,Decoración,55
