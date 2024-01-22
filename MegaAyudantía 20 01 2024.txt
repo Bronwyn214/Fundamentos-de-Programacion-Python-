@@ -1,0 +1,69 @@
+MegaAyudantía 20/01/2024
+
+Ejercicio 1---------------------------------------------------------------------------
+
+Se tiene el siguiente archivo llamado "notas.txt":
+nombre|paralelo|materia|nota1,nota2,nota3,nota4,nota5
+Josue|2|matematicas|65,45,78,89,75
+Gabriel|1|matematicas|89,45,78,89,78
+Carlos|1|matematicas|100,45,78,36,96
+Joice|2|matematicas|65,45,78,89,100
+Enrique|1|matematicas|65,45,78,89,100
+Roberto|2|matematicas|65,45,100,78,96
+Carlos|1|comunicacion|100,100,90,91,96
+Joice|2|comunicacion|65,90,90,89,100
+Enrique|1|comunicacion|65,58,78,56,100
+Roberto|2|comunicacion|65,47,100,78,63
+Priscilla|2|matematicas|65,78,78,71,75
+Dayanna|2|matematicas|65,81,100,12,89
+
+Ejercicio 1a. Implemente una funcion llamada obtenerList(nomA), que recibe el nombre del archivo. Retornará una lista que contiene nombres sin repetir y la nota mínima de todas las notas.
+
+Ejercicio 1b. Implemente una funcion llamada obtenerDics(nomA,paralelo,materia), que recibe el nombre del archivo, un paralelo en entero y una materia. Retornará un diccionario donde sus claves son nombres y sus valores serán listas de notas de ese paralelo y materia específica.
+
+Ejercicio 1c. Implemente una función llamada obtenerPromedios(nomA,paralelo,materia). que recibe el diccionario del enunciado anterior. Retornará un diccionario con las notas promediadas.
+
+Ejercicio 1d. Implemente una función llamada mayorPromedio(nomA,paralelo,materia). Retornará el nombre del estudiante con mayor promedio.
+
+Ejercicio 2---------------------------------------------------------------------
+
+Se tiene el siguiente diccionario.
+dicStream = {"HBO":478569632,"Netflix":956789132,"PrimeVideo":465789123,"Star+":321654987,"Disney+":546123789}
+
+Ejercicio 2a. Implemente una función llamada presentar(dic), que recibe el diccionario(dicStream). La función imprimirá de mayor a menor por consola de la siguiente manera:
+Stream            Viewers
+Netflix         956789132
+Disney+         546123789
+...
+
+Ejercicio 2b. Implemente una función llamada crearArchivo(nomA,dic), que recibe el nombre del archivo y un diccionario(dicStream). Escribirá en el archivo los datos del diccionario con siguiente formato:
+Stream/Viewers
+Netflix:
+956789132
+PrimeVideo:
+465789123
+...
+winOfRating: Netflix
+nota: no importará el orden en el que se escriben las plataformas de streaming, y por ultimo escribe la plataforma con mas Viewers.
+
+Ejercicio 3---------------------------------------------------------------------
+
+Se tiene la siguiente matriz
+m = np.array([["X","Y","X","X"],["Y"," ","X","X"],[" ","X","X","X"],[" ","Y","Y"," "]])
+Se desea implementar un función llamada procesar(m), que recibe la matriz y retonará cantidad de "X", cantidad de "Y", cantidad total de elementos llenos y la misma matriz pero los espacios vacíos serán "0" y los espacios llenos serán "1".
+
+Ejercicio 4---------------------------------------------------------------------
+
+Se tiene el siguiente archivo con el siguiente formato:
+almacen:ciudad:venta
+
+Ejercicio 4a. Implemente una función llamada obtenerEtiquetas(nomA), que recibe el nombre del archivo y retonará dos vectores, uno con el nombre de todos los almacenes sin repetir y el otro con el nombre de todas las ciudades sin repetir
+
+Ejercicio 4b. Implemente una función llamada crearMatriz(nomA,almacenes,ciudades), que recibe el nombre del archivo y vectores de la función anterior. Retornará una matriz almacenes(filas)xciudades(columnas) donde cada celda representa el valor monetario.
+
+Ejercicio 4c. Implemente una función llamada obtenerTop3almacenes(m), que recibe una matriz y retonará un vector con los tres mejores almacenes que más han vendido en total de todas las ciudades.
+
+Ejercicio 4d. Implemente una función llamada obtenerstats(m,almacenes,ciudades), que recibe los datos pertinentes y retornará una matriz de igual tamaño donde pondrá un String "mayor" en aquellos mayores que el promedio total de toda la matriz.
+
+Ejercicio 4e. Implemente una función llamada obtenerTotalCiudades(vectorS,malmacenes,ciudades), que recibe los datos pertinentes y un vectorS con algunas ciudades sin repetir, la funcion retornará un vector paralelo al vectorS que es la suma total de esas ciudades.
+

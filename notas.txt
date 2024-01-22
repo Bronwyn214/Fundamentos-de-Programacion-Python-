@@ -1,0 +1,13 @@
+nombre|paralelo|materia|nota1,nota2,nota3,nota4
+Josue|2|matematicas|65,45,78,89,75
+Gabriel|1|matematicas|89,45,78,89,78
+Carlos|1|matematicas|100,45,78,36,96
+Joice|2|matematicas|65,45,78,89,100
+Enrique|1|matematicas|65,45,78,89,100
+Roberto|2|matematicas|65,45,100,78,96
+Carlos|1|comunicacion|100,100,90,91,96
+Joice|2|comunicacion|65,90,90,89,100
+Enrique|1|comunicacion|65,58,78,56,100
+Roberto|2|comunicacion|65,47,100,78,63
+Priscilla|2|matematicas|65,78,78,71,75
+Dayanna|2|matematicas|65,81,100,12,89
